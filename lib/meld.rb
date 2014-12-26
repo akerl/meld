@@ -1,1 +1,1 @@
-require 'meld/deep_hash_merge'
+require 'meld/hash/deep_merge'
