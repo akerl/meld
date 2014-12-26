@@ -8,9 +8,15 @@ meld
 [![Build Status](https://img.shields.io/travis/akerl/meld.svg)](https://travis-ci.org/akerl/meld)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
-SHORT_DESCRIPTION
+Utility library for combining objects
 
 ## Usage
+
+### Deep hash merge -- .deep_merge
+
+This will merge nested hashes
+
+Credit for the method goes to [this StackOverflow answer](http://stackoverflow.com/questions/9381553/ruby-merge-nested-hash)
 
 ## Installation
 
