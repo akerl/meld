@@ -14,7 +14,21 @@ Utility library for combining objects
 
 ### Deep hash merge -- .deep_merge
 
-This will merge nested hashes
+This will merge nested hashes:
+
+```
+require 'meld/hash/deep_merge'
+
+a = { x: 4, y: { dogs: 3, cats: 5 }, z: { pizza: 10 } }
+b = { y: { dogs: 6, fish: 2 } }
+c = a.deep_merge(b)
+p c
+# {:x=>4, :y=>{:dogs=>6, :cats=>5, :fish=>2}, :z=>{:pizza=>10}}
+
+a.deep_merge! b
+p a
+# {:x=>4, :y=>{:dogs=>6, :cats=>5, :fish=>2}, :z=>{:pizza=>10}}
+```
 
 Credit for the method goes to [this StackOverflow answer](http://stackoverflow.com/questions/9381553/ruby-merge-nested-hash)
 
