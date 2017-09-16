@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name        = 'meld'
   s.version     = '1.1.0'
-  s.date        = Time.now.strftime("%Y-%m-%d")
+  s.date        = Time.now.strftime('%Y-%m-%d')
 
   s.summary     = 'Utility library for combining objects'
-  s.description = "Utility library for combining objects"
+  s.description = 'Utility library for combining objects'
   s.authors     = ['Les Aker']
   s.email       = 'me@lesaker.org'
   s.homepage    = 'https://github.com/akerl/meld'
