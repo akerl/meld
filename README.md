@@ -2,7 +2,6 @@ meld
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/meld.svg)](https://rubygems.org/gems/meld)
-[![Dependency Status](https://img.shields.io/gemnasium/akerl/meld.svg)](https://gemnasium.com/akerl/meld)
 [![Build Status](https://img.shields.io/circleci/project/akerl/meld/master.svg)](https://circleci.com/gh/akerl/meld)
 [![Coverage Status](https://img.shields.io/codecov/c/github/akerl/meld.svg)](https://codecov.io/github/akerl/meld)
 [![Code Quality](https://img.shields.io/codacy/f670580bfa704594b2230077c80c931e.svg)](https://www.codacy.com/app/akerl/meld)
