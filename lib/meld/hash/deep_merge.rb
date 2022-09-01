@@ -3,8 +3,8 @@
 class Hash
   def deep_merge!(second)
     merger = proc do |_, v1, v2|
-      next v1.merge(v2, &merger) if [v1, v2].all? { |x| x.is_a? Hash }
-      next v1 + v2 if [v1, v2].all? { |x| x.is_a? Array }
+      next v1.merge(v2, &merger) if [v1, v2].all?(Hash)
+      next v1 + v2 if [v1, v2].all?(Array)
       v2
     end
     merge!(second, &merger)
