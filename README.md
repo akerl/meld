@@ -2,7 +2,7 @@ meld
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/meld.svg)](https://rubygems.org/gems/meld)
-[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/akerl/meld/Build)](https://github.com/akerl/meld/actions)
+[![GitHub Workflow Status](https://img.shields.io/actions/github/workflow/status/akerl/meld/build.yml?branch=main)](https://github.com/akerl/meld/actions)
 [![MIT Licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://tldrlegal.com/license/mit-license)
 
 Utility library for combining objects
